@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-family: vazirmatn;
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+}
+
+video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+video::-webkit-media-controls {
+    display: none !important;
+}
+
+video::-webkit-media-controls-enclosure {
+    display: none !important;
+}
+
+video::-webkit-media-controls-panel {
+    display: none !important;
+}
+
+video::-webkit-media-controls-overlay-play-button {
+    display: none !important;
+}
+
+.custom-button {
+    background-color: rgb(95, 95, 95);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 10px 20px;
+}
+
+.custom-button:hover {
+    background-color: #4c4d4c;
+}
